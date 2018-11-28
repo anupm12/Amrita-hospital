@@ -1,0 +1,132 @@
+.top-bar {
+  background-color: #03A9F4; }
+  .top-bar .fix {
+    margin: 0;
+    padding: 0; }
+  .top-bar ul {
+    list-style: none; }
+    .top-bar ul li {
+      display: inline-block; }
+      .top-bar ul li a, .top-bar ul li a:link,
+      .top-bar ul li a:active {
+        color: #fff;
+        text-decoration: none; }
+      .top-bar ul li a:hover {
+        color: #fff; }
+
+body {
+  background: #fff;
+  font-family: 'Roboto';
+  font-weight: 300; }
+
+.navbar {
+  background: #fff;
+  border-bottom: #03A9F4 2px solid;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  font-size: 100%;
+  margin-left: -20px;
+  margin-right: -20px; }
+
+.nav-link:hover {
+  border-bottom: #03A9F4 1px solid; }
+
+nav .img-logo {
+  height: 60px; }
+
+nav .brand1 {
+  font-weight: 400;
+  color: #C9213A; }
+
+nav .brand2 {
+  font-weight: 400;
+  color: #0288D1; }
+
+nav ul li {
+  margin-left: 20px; }
+  nav ul li a {
+    color: #333; }
+
+#home-section {
+  background-image: linear-gradient(217deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 70.71%), url("../img/img2.jpg");
+  min-height: 60vh;
+  background-size: cover;
+  position: relative; }
+
+.mt-6 {
+  margin-top: 4rem !important; }
+
+.cen {
+  position: absolute;
+  top: 100%;
+  left: 72%;
+  transform: translate(-100%, -72%); }
+
+.card1 {
+  background-color: #0288D1;
+  color: #fff; }
+
+.card2 {
+  background-color: #0293E2;
+  color: #fff; }
+
+.card3 {
+  background-color: #029EF3;
+  color: #fff; }
+
+#home-card img {
+  height: 4rem; }
+
+#home-card [class^="col-"] {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+#home-card .btn {
+  border-radius: 20px; }
+
+#home-card .btn-outline-white {
+  border: #fff solid 1px;
+  color: #fff; }
+
+#about h2 {
+  color: #03A9F4; }
+
+#about h4 {
+  border-bottom: #03A9F4 2px solid; }
+
+#about card-block {
+  border: 0; }
+
+#amma {
+  background: #f7f7f7; }
+  #amma h4 {
+    border-bottom: #03A9F4 2px solid;
+    display: inline-block; }
+  #amma img {
+    height: 100%; }
+
+#appointment h2 {
+  color: #03A9F4; }
+
+#appointment .btn {
+  border-radius: 7px;
+  font-size: 80%; }
+
+#appointment table {
+  border: #03A9F4 2px solid;
+  border-collapse: separate;
+  border-radius: 5px; }
+  #appointment table th {
+    border: none;
+    color: #333; }
+
+#appointment form {
+  border: #03A9F4 2px solid;
+  border-radius: 5px; }
+  #appointment form h4 {
+    color: #333; }
+
+#contact {
+  background: #f7f7f7; }
+
+footer {
+  color: #fff; }
